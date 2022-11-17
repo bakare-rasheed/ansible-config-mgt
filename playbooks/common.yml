@@ -1,6 +1,6 @@
 ---
-- name: update web, nfs and db servers
-  hosts: webservers, nfs,
+- name: update web, nfs
+  hosts: webservers, nfs
   remote_user: ec2-user
   become: yes
   become_user: root
@@ -24,3 +24,4 @@
       apt:
         name: wireshark
         state: latest
+        
