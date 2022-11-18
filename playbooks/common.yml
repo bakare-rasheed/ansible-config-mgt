@@ -10,6 +10,11 @@
         name: wireshark
         state: latest
 
+    - name: Apache
+      yum:
+        name: httpd
+        state: latest
+
 - name: update LB server
   hosts: lb, db
   remote_user: ubuntu
@@ -24,10 +29,8 @@
       apt:
         name: wireshark
         state: latest
-        
 
-  - hosts: lb, nfs, webservers, db
-    sudo: yes
-    tasks:
-      - name: install apache2
-        apt: name=apache2 update_cache=yes state=latest
+    - name: Apache
+      apt:
+        name: Apache2
+        state: latest
