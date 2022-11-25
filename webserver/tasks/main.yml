@@ -14,7 +14,7 @@
 - name: clone a repo
   become: true
   ansible.builtin.git:
-    repo: https://github.com/bakare-rasheed/Amazon-Cloudfront-with-S3
+    repo: https://github.com/bakare-rasheed/tooling
     dest: /var/www/html
     force: yes
 
