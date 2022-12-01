@@ -1,0 +1,8 @@
+2022-11-18 19:14:06.312 [info] Extension host agent started.
+2022-11-18 19:14:07.853 [info] [127.0.0.1][5901b047][ManagementConnection] New connection established.
+2022-11-18 19:14:08.241 [info] [127.0.0.1][c7a9c7e2][ExtensionHostConnection] New connection established.
+2022-11-18 19:14:08.246 [info] [127.0.0.1][c7a9c7e2][ExtensionHostConnection] <1587> Launched Extension Host Process.
+2022-11-18 19:16:09.613 [info] [127.0.0.1][5901b047][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-11-18 19:16:09.637 [info] [127.0.0.1][c7a9c7e2][ExtensionHostConnection] <1587> Extension Host Process exited with code: 0, signal: null.
+2022-11-18 19:16:09.638 [info] Last EH closed, waiting before shutting down
+2022-11-18 19:21:09.639 [info] Last EH closed, shutting down

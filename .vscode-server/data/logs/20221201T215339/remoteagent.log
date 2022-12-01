@@ -1,0 +1,40 @@
+2022-12-01 21:53:39.902 [info] Extension host agent started.
+2022-12-01 21:53:43.703 [info] [127.0.0.1][b48c2332][ManagementConnection] New connection established.
+2022-12-01 21:53:44.251 [info] [127.0.0.1][07f4987e][ExtensionHostConnection] New connection established.
+2022-12-01 21:53:44.255 [info] [127.0.0.1][07f4987e][ExtensionHostConnection] <1787> Launched Extension Host Process.
+2022-12-01 21:53:59.345 [info] [127.0.0.1][b48c2332][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-01 21:53:59.715 [info] [127.0.0.1][07f4987e][ExtensionHostConnection] <1787> Extension Host Process exited with code: 0, signal: null.
+2022-12-01 21:53:59.715 [info] Last EH closed, waiting before shutting down
+2022-12-01 21:54:39.218 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-01 21:54:39.218 [info] Cancelling previous shutdown timeout
+2022-12-01 21:54:41.085 [info] [127.0.0.1][b5b465c2][ManagementConnection] New connection established.
+2022-12-01 21:54:41.694 [info] [127.0.0.1][2436a519][ExtensionHostConnection] New connection established.
+2022-12-01 21:54:41.727 [info] [127.0.0.1][2436a519][ExtensionHostConnection] <1926> Launched Extension Host Process.
+2022-12-01 21:55:00.959 [error] CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/ubuntu/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateIcon (/home/ubuntu/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:2993)
+    at Object.call (/home/ubuntu/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/ubuntu/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/ubuntu/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/ubuntu/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/ubuntu/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/ubuntu/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/ubuntu/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/ubuntu/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-01 21:55:06.674 [info] [127.0.0.1][b5b465c2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-01 21:55:06.742 [info] [127.0.0.1][2436a519][ExtensionHostConnection] <1926> Extension Host Process exited with code: 0, signal: null.
+2022-12-01 21:55:06.742 [info] Cancelling previous shutdown timeout
+2022-12-01 21:55:06.742 [info] Last EH closed, waiting before shutting down
+2022-12-01 21:57:42.042 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-01 21:57:42.042 [info] Cancelling previous shutdown timeout
+2022-12-01 21:57:43.947 [info] [127.0.0.1][f9f48974][ManagementConnection] New connection established.
+2022-12-01 21:57:44.472 [info] [127.0.0.1][518b3044][ExtensionHostConnection] New connection established.
+2022-12-01 21:57:44.480 [info] [127.0.0.1][518b3044][ExtensionHostConnection] <2111> Launched Extension Host Process.
+2022-12-01 22:02:42.042 [info] New EH opened, aborting shutdown
+2022-12-01 22:42:11.552 [info] [127.0.0.1][f9f48974][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-01 22:42:11.573 [info] [127.0.0.1][518b3044][ExtensionHostConnection] <2111> Extension Host Process exited with code: 0, signal: null.
+2022-12-01 22:42:11.573 [info] Last EH closed, waiting before shutting down
+2022-12-01 22:47:11.574 [info] Last EH closed, shutting down
