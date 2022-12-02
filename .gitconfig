@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+	name = bakare-rasheed
+	email = bakarerasheed.a38@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = bakare
+#	email = bakarerasheed.a38@gmail.com
+[credential]
+	useHttpPath = true
+	helper = store

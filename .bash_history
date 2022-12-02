@@ -281,3 +281,88 @@ ansible-playbook -i /var/lib/jenkins/jobs/Ansible/builds/13/archive/inventory/de
 sudo ansible-playbook -i /home/ubuntu/ansible-config-mgt/inventory/uat.yml /home/ubuntu/ansible-config-mgt/playbooks/site.yaml
 ansible-playbook -i /home/ubuntu/ansible-config-mgt/inventory/uat.yml /home/ubuntu/ansible-config-mgt/playbooks/site.yaml
 ansible-playbook -i /home/ubuntu/ansible-config-artifact/inventory/uat.yml /home/ubuntu/ansible-config-artifact/playbooks/site.yml 
+ls
+cd ansible-config-artifact/
+ls
+cd ..
+cd /var/
+ls
+cd lib/
+ls
+cd jenkins/
+ls
+cd jobs/
+cd Ansible/builds/
+ls
+cd 18
+ls
+cd archive/
+ls
+cd ..
+ls
+cd .
+cd ..cd ..
+cd ..
+cd /home/
+ls
+cd ubuntu/
+cd ansible-config-artifact/
+ls
+cd r
+cd roles/
+ls
+sudo rm baba
+ls
+ansible-galaxy install geerlingguy.mysql
+ls
+cd .. 
+cd /home/ubuntu/ansible-config
+cd /home/ubuntu/ansible-config-mgt/roles/
+ls
+cd geerlingguy.mysql/
+ls
+cd ..
+ls
+mv roles ~/ansible-config-artifact/roles/
+sudo mv roles ~/ansible-config-artifact/roles/
+ls
+cd..
+cd ..
+cd ansible-config-artifact/roles/
+ls
+cd roles/
+ls
+sudo mv geerlingguy.mysql ~/ansible-config-artifact/roles/
+cd ..
+cd roles/
+ls
+sudo rm roles/
+sudo rm -R roles/
+ls
+mv geerlingguy.mysql/ mysql
+sudo mv geerlingguy.mysql/ mysql
+ls
+git status
+cd ..
+git status
+git init
+git status
+git branch
+git add .
+git commit -m "new"
+git push origin
+git pull https://github.com/bakare-rasheed/ansible-config-mgt
+git remote add origin https://github.com/bakare-rasheed/ansible-config-mgt
+git branch roles-feature
+git switch roles-feature
+git status
+git branch
+cd ansible-config-artifact/roles/
+ls
+mkdir project 12
+sudo mkdir project 12
+ls
+cd ..
+git status
+cd roles/
+git status
