@@ -17,7 +17,7 @@ nginx_service_enabled: true
 
 nginx_conf_template: "nginx.conf.j2"
 nginx_vhost_template: "vhost.j2"
-
+enable_nginx_lb: false
 nginx_worker_processes: >-
   "{{ ansible_processor_vcpus | default(ansible_processor_count) }}"
 nginx_worker_connections: "1024"

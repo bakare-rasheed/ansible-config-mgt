@@ -24,6 +24,7 @@ apache_vhosts:
 
 apache_allow_override: "All"
 apache_options: "-Indexes +FollowSymLinks"
+enable_apache_lb: false
 
 apache_vhosts_ssl: []
 # Additional properties:
