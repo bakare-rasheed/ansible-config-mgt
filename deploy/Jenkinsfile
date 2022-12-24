@@ -16,37 +16,6 @@ stages {
    sh 'echo "Building Stage"'
     }
   }
-}
-
-    stage('Test') {
-      steps {
-        script {
-          sh 'echo "Testing Stage"'
-        }
-      }
-    }
-
-stage('Package') {
- steps {
-  script {
-   sh 'echo "Packaging App"'
-   }
-  }
-}
-
-stage('Deploy') {
-      steps {
-        script {
-          sh 'echo "Bakare is deploying to Dev"'
-        }
-      }
-    }
-
-stage("clean up"){
- steps {
-  cleanWs()
-  }
  }
- 
-}
+
 }
