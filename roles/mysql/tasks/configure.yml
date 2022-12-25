@@ -16,7 +16,7 @@
   notify: restart mysql
 
 - name: Verify mysql include directory exists.
- file:
+  file:
     path: "{{ mysql_config_include_dir }}"
     state: directory
     owner: root
