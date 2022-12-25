@@ -1,12 +1,12 @@
 ---
-#- name: Ensure default user is present.
-  mysql_user:
-    name: "{{ mysql_user_name }}"
-    host: 'localhost'
-    password: "{{ mysql_user_password }}"
-    priv: '*.*:ALL,GRANT'
-    state: present
-  when: mysql_user_name != mysql_root_username
+# - name: Ensure default user is present.
+#   mysql_user:
+#     name: "{{ mysql_user_name }}"
+#     host: 'localhost'
+#     password: "{{ mysql_user_password }}"
+#     priv: '*.*:ALL,GRANT'
+#     state: present
+#   when: mysql_user_name != mysql_root_username
 
 
 #- name: Copy user-my.cnf file with password credentials.
