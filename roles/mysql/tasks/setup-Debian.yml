@@ -1,18 +1,18 @@
 ---
-- name: Check if MySQL is already installed.
+#- name: Check if MySQL is already installed.
   stat: path=/etc/init.d/mysql
   register: mysql_installed
 
-- name: Update apt cache if MySQL is not yet installed.
+#- name: Update apt cache if MySQL is not yet installed.
   apt: update_cache=yes
   when: not mysql_installed.stat.exists
 
-- name: Ensure MySQL Python libraries are installed.
+#- name: Ensure MySQL Python libraries are installed.
   apt:
     name: "{{ mysql_python_package_debian }}"
     state: present
 
-- name: Ensure MySQL packages are installed.
+#- name: Ensure MySQL packages are installed.
   apt:
     name: "{{ mysql_packages }}"
     state: present
@@ -24,7 +24,7 @@
   service: "name={{ mysql_daemon }} state=stopped"
   when: not mysql_installed.stat.exists
 
-- name: Delete innodb log files created by apt package after initial install.
+#- name: Delete innodb log files created by apt package after initial install.
   file: path={{ mysql_datadir }}/{{ item }} state=absent
   with_items:
     - ib_logfile0
