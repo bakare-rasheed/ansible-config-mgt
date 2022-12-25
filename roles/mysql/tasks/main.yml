@@ -1,16 +1,16 @@
 ---
 # Variable configuration.
-- include_tasks: variables.yml
+# - include_tasks: variables.yml
 
-# Setup/install tasks.
-- include_tasks: setup-RedHat.yml
-  when: ansible_os_family == 'ubuntu'
+# # Setup/install tasks.
+# - include_tasks: setup-RedHat.yml
+#   when: ansible_os_family == 'ubuntu'
 
-- include_tasks: setup-Debian.yml
-  when: ansible_os_family == 'Debian'
+# - include_tasks: setup-Debian.yml
+#   when: ansible_os_family == 'Debian'
 
-- include_tasks: setup-Archlinux.yml
-  when: ansible_os_family == 'Archlinux'
+# - include_tasks: setup-Archlinux.yml
+#   when: ansible_os_family == 'Archlinux'
 
 - name: Check if MySQL packages were installed.
   set_fact:
