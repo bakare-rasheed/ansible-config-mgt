@@ -7,7 +7,7 @@
 #   when: ansible_os_family == 'RedHat'
 
 - include_tasks: setup-Debian.yml
-  when: ansible_os_family == 'Debian'
+  when: ansible_os_family == 'ubuntu'
 
 # - include_tasks: setup-Archlinux.yml
 #   when: ansible_os_family == 'Archlinux'
