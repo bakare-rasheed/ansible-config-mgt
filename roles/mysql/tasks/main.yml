@@ -1,6 +1,6 @@
  ---
-# # Variable configuration.
-# - include_tasks: variables.yml
+#  Variable configuration.
+ - include_tasks: variables.yml
 
 # # Setup/install tasks.
 # - include_tasks: setup-RedHat.yml
