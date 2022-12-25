@@ -1,5 +1,5 @@
 ---
-- name: Get MySQL version.
+#- name: Get MySQL version.
   command: 'mysql --version'
   register: mysql_cli_version
   changed_when: false
