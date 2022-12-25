@@ -1,5 +1,5 @@
 ---
-- name: Ensure default user is present.
+#- name: Ensure default user is present.
   mysql_user:
     name: "{{ mysql_user_name }}"
     host: 'localhost'
