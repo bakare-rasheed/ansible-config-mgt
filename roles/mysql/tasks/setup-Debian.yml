@@ -14,10 +14,10 @@
   # become: true
 
 #- name: Ensure MySQL packages are installed.
-  ansible.builtin.package:
-    name: "{{ mysql_packages }}"
-    state: present
-  register: deb_mysql_install_packages
+  # apt:
+  #   name: "{{ mysql_packages }}"
+  #   state: present
+  # register: deb_mysql_install_packages
 
 # Because Ubuntu starts MySQL as part of the install process, we need to stop
 # mysql and remove the logfiles in case the user set a custom log file size.
