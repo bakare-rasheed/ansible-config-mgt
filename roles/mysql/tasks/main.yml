@@ -1,4 +1,4 @@
----
+ ---
 #  Variable configuration.
  - include_tasks: variables.yml
 
@@ -6,7 +6,7 @@
 # - include_tasks: setup-RedHat.yml
 #   when: ansible_os_family == 'RedHat'
 
-- include_tasks: setup-Debian.yml
+#- include_tasks: setup-Debian.yml
   when: ansible_os_family == 'ubuntu'
 
 # - include_tasks: setup-Archlinux.yml
