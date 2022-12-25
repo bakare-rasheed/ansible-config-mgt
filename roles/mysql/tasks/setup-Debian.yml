@@ -14,7 +14,7 @@
   # become: true
 
 #- name: Ensure MySQL packages are installed.
-  ansible.builtin.apt:
+  ansible.builtin.package:
     name: "{{ mysql_packages }}"
     state: present
   register: deb_mysql_install_packages
