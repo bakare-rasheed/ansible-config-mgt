@@ -12,7 +12,7 @@
     - (mysql_replication_master | length) > 0
   tags: ['skip_ansible_galaxy']
 
-- name: Check slave replication status.
+#- name: Check slave replication status.
   mysql_replication:
     mode: getslave
     login_user: "{{ mysql_replication_user.name }}"
@@ -24,7 +24,7 @@
     - (mysql_replication_master | length) > 0
   tags: ['skip_ansible_galaxy']
 
-- name: Check master replication status.
+#- name: Check master replication status.
   mysql_replication: mode=getmaster
   delegate_to: "{{ mysql_replication_master }}"
   register: master
@@ -34,7 +34,7 @@
     - (mysql_replication_master | length) > 0
   tags: ['skip_ansible_galaxy']
 
-- name: Configure replication on the slave.
+#- name: Configure replication on the slave.
   mysql_replication:
     mode: changemaster
     master_host: "{{ mysql_replication_master }}"
@@ -49,7 +49,7 @@
     - mysql_replication_user.name is defined
     - (mysql_replication_master | length) > 0
 
-- name: Start replication.
+#- name: Start replication.
   mysql_replication: mode=startslave
   when:
     - (slave.Is_Slave is defined and not slave.Is_Slave) or (slave.Is_Slave is not defined and slave is failed)
