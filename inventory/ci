@@ -3,3 +3,6 @@
 
 [db]
 172.31.84.214 ansible_ssh_user='ubuntu'
+
+[sonar]
+172.31.94.190 ansible_ssh_user='ubuntu'
